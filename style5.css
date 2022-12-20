@@ -56,3 +56,23 @@ p{
     margin: 20px;
     text-align: center;
 }
+
+.column {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  height: 300px; 
+  background-color: #808B96;
+  border: solid black 1px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 20px;
+}
+
+a{
+    color: black;
+}

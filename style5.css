@@ -76,3 +76,25 @@ p{
 a{
     color: black;
 }
+
+.col-1 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  background-color: #808B96;
+  border: solid black 1px;
+}
+
+.col-2 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  background-color: #808B96;
+  border: solid black 1px;
+}
+
+h3{
+    font-size: 12px;
+}

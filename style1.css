@@ -126,6 +126,10 @@ p{
     margin: 20px;
 }
 
+h2{
+    margin: 5px;
+}
+
 .button {
   background-color: transparent;
   border: 3px solid #34495E;
@@ -139,43 +143,22 @@ p{
   cursor: pointer;
 }
 
-.row{
-    display: block;
-    position: relative;
-    opacity: 1;
-    left: 0px;
-    top: 0px;
-    margin: 0px 0;
-    padding: 0px;
-    background: none;
-    border: none;
-    -webkit-box-shadow: inset 0 0px 0px rgb(0 0 0 / 0%);
-    -moz-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0);
-    box-shadow: inset 0 0px 0px rgb(0 0 0 / 0%);
-    content: "";
-    display: table;
-    clear: both;
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  background-color: #808B96;
+  border: solid black 1px;
 }
 
-.col{
-    background-color: #808B96;
-    border: 1px solid black;
-    border-radius: 4px 4px 4px 4px;
-    margin: 0;
-    padding: 25px;
-    position: relative;
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
-    float: left;
-    width: 50%;
-   
-}
-
+/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
   padding: 20px;
+ 
 }
 
 a{
@@ -185,18 +168,18 @@ a{
 .col-1 {
   float: left;
   width: 33.33%;
-  height: 30%;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  height: 200px; /* Should be removed. Only for demonstration */
   background-color: #808B96;
   border: solid black 1px;
 }
+
 
 .col-2 {
   float: left;
   width: 50%;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  height: 200px; /* Should be removed. Only for demonstration */
   background-color: #808B96;
   border: solid black 1px;
 }

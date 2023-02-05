@@ -94,6 +94,23 @@ h2{
   margin: 50px;
 }
 
+.column-2 {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  height: 500px; 
+  border: 1px solid black;
+  background-color: #808B96
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin: 50px;
+}
+
 
 .collapsible {
   background-color: #777;

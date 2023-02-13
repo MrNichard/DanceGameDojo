@@ -82,8 +82,10 @@ h2{
   width: 50%;
   padding: 10px;
   height: 500px; 
-  border: 1px solid black;
-  background-color: #808B96
+  background-color: #808B96;
+  border: solid black 1px;
+  resize: vertical;
+  overflow: auto;
 }
 
 
@@ -98,9 +100,11 @@ h2{
   float: left;
   width: 100%;
   padding: 10px;
-  height: 500px; 
-  border: 1px solid black;
-  background-color: #808B96
+  height: 300px; 
+  background-color: #808B96;
+  border: solid black 1px;
+  resize: vertical;
+  overflow: auto;
 }
 
 

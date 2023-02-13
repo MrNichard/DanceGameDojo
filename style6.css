@@ -75,6 +75,8 @@ p{
   height: 300px; 
   background-color: #808B96;
   border: solid black 1px;
+  resize: vertical;
+  overflow: auto;
 }
 
 /* Clear floats after the columns */
@@ -82,4 +84,34 @@ p{
   content: "";
   display: table;
   clear: both;
+  resize: vertical;
+  overflow: auto;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.ScrollStyle{
+    max-height: 150px;
+    overflow-y: scroll;
 }

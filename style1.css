@@ -73,13 +73,13 @@ body{
     text-align: center;
 }
 .header-content h1{
-    color: white;
+    color: #404244;
     text-shadow:5px 5px 5px rgba(0,0,0,.3);
     text-transform: uppercase;
     font-size: 40px;
 }
 .header-content p{
-    color: white;
+    color: #222325;
     text-shadow:5px 5px 5px rgba(0,0,0,.3);
     margin: 5px 0 40px 0;
 }
